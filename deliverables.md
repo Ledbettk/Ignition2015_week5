@@ -35,9 +35,19 @@ resources :posts
 
 ##### Odin Project Views Guide Questions:
 - What is a layout?
+
+The layout had the basic tags you need in all webpages and some other code that loads up the javascript and css files your webpage will need. Anything that is needed across all your webpages go into the layout.
+
 - What's the difference between a "view template" and a "layout"?
+
+The layout is basically just a shell around the individual page, and the view template has the HTML that you want displayed on your pages.
+
 - What is a "Preprocessor"?
+ The <%= and %> tags. This is Embedded Ruby (ERB). It's a special way of executing ruby code inside your HTML
+
 - Why are preprocessors useful?
+HTML creates static outputs, but with preprocessors like ERB you can make your content dynamic.
+
 - How do you make sure a preprocessor runs on your file?
 - What's the outputted filetype of a preprocessed *.html.erb file? What about a *.css.scss file?
 - What is the difference between the <%= and <% tags?
