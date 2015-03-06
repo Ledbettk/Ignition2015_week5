@@ -1,9 +1,11 @@
 #### Deliverables for week 5 Rails MVC
 ##### Odin Project Routing Guide Questions:
 - What is the "Root" route?
+
   the most important route, it tells the server where a user should be sent when they first visit your website's URL.
 
 - What are the seven RESTful routes for a resource?
+
   GET all the posts
   GET just one specific post
   GET the page that lets you create a new post
@@ -13,18 +15,22 @@
   DELETE one specific post by sending a delete request to the server 
 
 - Which RESTful routes share the same URL but use different verbs?
+
 GET "/posts/:id"
 Put "/posts/:id"
 Delete "/posts/:id"
 
 - How do you specify an ID or other variable in a route?
+
 you use a colon : to tell rails that it needs to save info as the ID in the params hash
 
 - How can you easily write all seven RESTful routes in Rails?
+
   in config/routes.rb you put:
 resources :posts
 
 - What is the Rails helper method that creates the HTML for links?
+
   These methods end with _path and _url such as link_to "Edit this post", edit_post_path(3)
 
 ##### Odin Project Views Guide Questions:
