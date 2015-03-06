@@ -49,8 +49,16 @@ The layout is basically just a shell around the individual page, and the view te
 HTML creates static outputs, but with preprocessors like ERB you can make your content dynamic.
 
 - How do you make sure a preprocessor runs on your file?
+
+  Rails knows you want to preprocess the file because it has the extension .html.erb.
+
 - What's the outputted filetype of a preprocessed *.html.erb file? What about a *.css.scss file?
+
+
 - What is the difference between the <%= and <% tags?
+
+The difference between <% and <%= is that the <%= version actually displays whatever is returned inside the ERB tags. If you use <%, it will execute the code but it will not actually display anything in the HTML template
+
 - What is a view partial?
 - How do you insert a partial into your view?
 - How can you tell that a view file is a partial?
