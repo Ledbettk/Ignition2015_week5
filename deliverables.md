@@ -66,5 +66,10 @@ The difference between <% and <%= is that the <%= version actually displays what
 - What's the magical Rails shortcut for rendering a User? A bunch of Users?
 - What are asset tags and why are they used?
 
-##### Link to Odin Project Basic Routes, Views and Controllers repo: [my odin repo](https://github.com/Ledbettk/odin-mvc-project) (https://odinmvc-project-ledbettk.c9.io)
-##### Link to Hartl's Rails Tutorial Chapter 5 repo: [my hartl's repo]( https://ruby-rails-tut2-ledbettk.c9.io) https://kelsey-rails-app.herokuapp.com/
+##### Link to Odin Project Basic Routes, Views and Controllers repo:
+(https://github.com/Ledbettk/odin-mvc-project) 
+https://odinmvc-project-ledbettk.c9.io
+##### Link to Hartl's Rails Tutorial Chapter 5 repo:
+https://github.com/Ledbettk/ruby-rails-tut2
+https://ruby-rails-tut2-ledbettk.c9.io
+https://kelsey-rails-app.herokuapp.com/
