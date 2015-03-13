@@ -67,7 +67,7 @@ The difference between <% and <%= is that the <%= version actually displays what
 - What are asset tags and why are they used?
 
 ##### Link to Odin Project Basic Routes, Views and Controllers repo:
- (https://github.com/Ledbettk/odin-mvc-project) 
+ https://github.com/Ledbettk/odin-mvc-project
 
  https://odinmvc-project-ledbettk.c9.io
 ##### Link to Hartl's Rails Tutorial Chapter 5 repo:
