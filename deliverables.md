@@ -43,9 +43,11 @@ The layout had the basic tags you need in all webpages and some other code that 
 The layout is basically just a shell around the individual page, and the view template has the HTML that you want displayed on your pages.
 
 - What is a "Preprocessor"?
+
  The <%= and %> tags. This is Embedded Ruby (ERB). It's a special way of executing ruby code inside your HTML
 
 - Why are preprocessors useful?
+
 HTML creates static outputs, but with preprocessors like ERB you can make your content dynamic.
 
 - How do you make sure a preprocessor runs on your file?
