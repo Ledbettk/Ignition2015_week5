@@ -60,11 +60,28 @@ HTML creates static outputs, but with preprocessors like ERB you can make your c
 The difference between <% and <%= is that the <%= version actually displays whatever is returned inside the ERB tags. If you use <%, it will execute the code but it will not actually display anything in the HTML template
 
 - What is a view partial?
+
+ This is a template that can be reused within views so that a view doesn't have to be repeated.
+ 
 - How do you insert a partial into your view?
+
+ To insert a partial, you first create the partial, denoted by an underscore, then use the render method to insert it into the view.
+ 
 - How can you tell that a view file is a partial?
+
+ It starts with an underscore.
+ 
 - How do you pass a local variable to a partial?
+
+You can create an new object and refer to a variable in the parent view to pass a local variable into the partial. "partial:"
+
 - What's the magical Rails shortcut for rendering a User? A bunch of Users?
-- What are asset tags and why are they used?
+
+To render 1 user,  you can create a loop to create and render a user from the @users collection.  To render many, you can call do "render @users" and rails will run this loop over the entire users collection.
+
+- What are asset tags and why are they used
+
+Asset tags are used to identify CSS or Javascript files so that they can be outputted and identiied when compiled into one html file for the view.
 
 ##### Link to Odin Project Basic Routes, Views and Controllers repo:
  https://github.com/Ledbettk/odin-mvc-project
